@@ -1,0 +1,10 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 14 12:24:03.694441 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.4.28 configured -- resuming normal operations
+[Mon Mar 14 12:24:03.694527 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Mar 14 12:24:32.618218 2022] [autoindex:error] [pid 17] [client 172.19.0.1:44368] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Mar 14 12:41:25.384490 2022] [php7:error] [pid 21] [client 172.19.0.1:44374] script '/var/www/html/insertarProducto.php' not found or unable to stat, referer: http://localhost:8085/
+[Mon Mar 14 12:42:58.427827 2022] [php7:error] [pid 19] [client 172.19.0.1:44386] script '/var/www/html/insertarCliente.php' not found or unable to stat, referer: http://localhost:8085/index.html
+[Mon Mar 14 12:43:01.347044 2022] [php7:error] [pid 19] [client 172.19.0.1:44386] script '/var/www/html/insertarProducto.php' not found or unable to stat, referer: http://localhost:8085/index.html
+[Mon Mar 14 12:44:07.886132 2022] [php7:error] [pid 22] [client 172.19.0.1:44392] script '/var/www/html/insertarProducto.php' not found or unable to stat, referer: http://localhost:8085/index.html
+[Mon Mar 14 12:51:17.461055 2022] [php7:error] [pid 21] [client 172.19.0.1:44400] script '/var/www/html/controladorInsertar.php' not found or unable to stat, referer: http://localhost:8085/insertarProducto.php
+[Mon Mar 14 12:51:27.348240 2022] [php7:error] [pid 20] [client 172.19.0.1:44402] script '/var/www/html/controladorMostrar.php' not found or unable to stat, referer: http://localhost:8085/mostrarProductos.php
